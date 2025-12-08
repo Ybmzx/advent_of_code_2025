@@ -50,3 +50,11 @@ Ruby, 自带 `transpose`, 选对了属于是(). 除了我那个 vscode 不知道
 part01 直接模拟. part02, 从上往下 dp 统计经过 (i, j) 的路径个数, 结果是最后一行的和.
 
 C++, 用的最多的语言. part02 发现 `int` 溢出了换了 `long long`, 结果函数签名忘了改, 找了半天🤡. 论 `-Wconversion` 的重要性
+
+### Day 08
+
+part01 用一个并查集维护连通块内节点数量, 拿出最大三个相乘就行了.
+
+part02 进行一个 Kruskal, 记录最后连接的两点
+
+Javascript
